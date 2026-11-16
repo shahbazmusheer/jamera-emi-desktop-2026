@@ -1,0 +1,51 @@
+SELECT TOP 1000 
+    CONVERT(DATETIME, st.date, 103) as 'Date',
+    '[Code: '+CONVERT(VARCHAR, st.id)+'] -  [Gatepass.No: '+st.gate_pass_no+']'+'] -  [Name: '+st.name+']'+'] -  [Remarks: '+st.remarks+']' as 'Transaction Details',
+    st.name as 'Name',
+    -- If From Store is NULL, display the Supplier Name from the original purchase
+    -- COALESCE(from_stores.name, suppliers.name) as 'From.Store',
+    COALESCE(from_stores.name, 'Purchases ('+suppliers.name+')') as 'From.Store',
+    from_stores.area_code as 'From.Area.Code',
+    -- If To Store is NULL, display the Supplier Name from the original purchase
+    COALESCE(to_stores.name,  'Purchases') as 'To.Store',
+    to_stores.area_code as 'To.Area.Code',
+    st.fuel_expenses_amount as 'Fuel Exp',
+    st.remarks as 'Remarks',
+    st.gate_pass_no as 'Gatepass.No',
+    ac.name as 'Paid By',
+    items.id as 'Item.Code',
+    items.name as 'Item',
+    models.name as 'Model',
+    SUM(sti.stock_in) as 'Qty',
+    sti.returned as 'Returned',
+    sti.remarks as 'Item.Remarks'
+FROM stock_transactions as st 
+LEFT JOIN stores as from_stores ON st.from_store = from_stores.id 
+LEFT JOIN stores as to_stores ON st.to_store = to_stores.id 
+LEFT JOIN accounts as ac ON st.paid_by_ac_id = ac.id
+INNER JOIN stock_transaction_items as sti ON st.id = sti.stock_transaction_id
+-- New Joins to get Supplier Info
+LEFT JOIN purchases as p ON sti.purchase_id = p.id
+LEFT JOIN accounts as suppliers ON p.supplier_id = suppliers.id
+-- Existing Joins
+LEFT JOIN items ON sti.item_id = items.id
+LEFT JOIN item_models as models ON items.model_id = models.id
+GROUP BY 
+    st.date, 
+    st.id, 
+    st.name, 
+    st.remarks,
+    st.gate_pass_no,
+    from_stores.name, 
+    from_stores.area_code, 
+    to_stores.name, 
+    to_stores.area_code, 
+    suppliers.name, -- Added to Group By
+    st.fuel_expenses_amount, 
+    ac.name,
+    items.id,
+    items.name,
+    models.name,
+    sti.returned,
+    sti.remarks
+ORDER BY CONVERT(DATETIME, st.date, 103) DESC, st.id DESC;

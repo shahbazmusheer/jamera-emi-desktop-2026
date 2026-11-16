@@ -1,0 +1,174 @@
+SELECT 
+    itm.id AS [Item.Code],
+    itm.name AS [Item],
+
+    -- Opening Balance
+    ISNULL(Opening.TotalIn, 0)
+    + ISNULL(Opening.TotalSalesReturn, 0)
+    - (
+        ISNULL(Opening.TotalSold, 0)
+        + ISNULL(Opening.TotalTransferredOut, 0)
+        + ISNULL(Opening.TotalReturned, 0)
+      ) AS [Opening],
+
+    -- Period Movements
+    ISNULL(Period.InQty, 0) AS [Stock.In],
+    ISNULL(Period.SoldQty, 0) AS [Sold],
+    ISNULL(Period.RetQty, 0) AS [Sales.Return],
+    ISNULL(Period.OutQty, 0) AS [Transferred],
+    ISNULL(Period.ReturnedQty, 0) AS [Returned],
+
+    -- Closing Balance
+    (
+        ISNULL(Opening.TotalIn, 0)
+        + ISNULL(Opening.TotalSalesReturn, 0)
+        - (
+            ISNULL(Opening.TotalSold, 0)
+            + ISNULL(Opening.TotalTransferredOut, 0)
+            + ISNULL(Opening.TotalReturned, 0)
+          )
+    )
+    + ISNULL(Period.InQty, 0)
+    + ISNULL(Period.RetQty, 0)
+    - (
+        ISNULL(Period.SoldQty, 0)
+        + ISNULL(Period.OutQty, 0)
+        + ISNULL(Period.ReturnedQty, 0)
+      ) AS [Remaining]
+
+FROM items itm
+
+CROSS APPLY
+(
+    SELECT
+
+        -- Opening Stock In
+        (
+            SELECT SUM(stock_in)
+            FROM stock_transaction_items
+            WHERE item_id = itm.id
+              AND store_id = '504'
+              AND CONVERT(DATETIME,[date],105) < CONVERT(DATETIME,'01-01-2026',105)
+        ) AS TotalIn,
+
+        -- Opening Sold
+        (
+            SELECT SUM(si.sold_qty)
+            FROM sale_items si
+            INNER JOIN aggrements ag
+                ON si.agreement_id = ag.id
+            WHERE si.item_id = itm.id
+              AND ag.store_id = '504'
+              AND ag.date < '2026-01-01'
+        ) AS TotalSold,
+
+        -- Opening Sales Return
+        (
+            SELECT SUM(ari.quantity)
+            FROM agreement_return_items ari
+            INNER JOIN agreement_returns ar
+                ON ari.aggrement_return_id = ar.id
+            WHERE ari.item_id = itm.id
+              AND ar.store_id = '504'
+              AND ar.return_date < '2026-01-01'
+        ) AS TotalSalesReturn,
+
+        -- Opening Transfer Out
+        (
+            SELECT SUM(sti.stock_in)
+            FROM stock_transaction_items sti
+            INNER JOIN stock_transactions st
+                ON sti.stock_transaction_id = st.id
+            WHERE sti.item_id = itm.id
+              AND st.from_store = '504'
+              AND CONVERT(DATETIME,st.date,105) < CONVERT(DATETIME,'01-01-2026',105)
+        ) AS TotalTransferredOut,
+
+        -- Opening Returned
+        (
+            SELECT SUM(sti.returned)
+            FROM stock_transaction_items sti
+            INNER JOIN stock_transactions st
+                ON sti.stock_transaction_id = st.id
+            WHERE sti.item_id = itm.id
+              AND st.from_store = '504'
+              AND ISNULL(sti.returned,0) > 0
+              AND CONVERT(DATETIME,st.date,105) < CONVERT(DATETIME,'01-01-2026',105)
+        ) AS TotalReturned
+
+) Opening
+
+CROSS APPLY
+(
+    SELECT
+
+        -- Stock In
+        (
+            SELECT SUM(stock_in)
+            FROM stock_transaction_items
+            WHERE item_id = itm.id
+              AND store_id = '504'
+              AND CONVERT(DATETIME,[date],105) >= CONVERT(DATETIME,'01-01-2026',105)
+              AND CONVERT(DATETIME,[date],105) < CONVERT(DATETIME,'01-02-2026',105)
+        ) AS InQty,
+
+        -- Sold
+        (
+            SELECT SUM(si.sold_qty)
+            FROM sale_items si
+            INNER JOIN aggrements ag
+                ON si.agreement_id = ag.id
+            WHERE si.item_id = itm.id
+              AND ag.store_id = '504'
+              AND ag.date >= '2026-01-01'
+              AND ag.date < '2026-02-01'
+        ) AS SoldQty,
+
+        -- Sales Return
+        (
+            SELECT SUM(ari.quantity)
+            FROM agreement_return_items ari
+            INNER JOIN agreement_returns ar
+                ON ari.aggrement_return_id = ar.id
+            WHERE ari.item_id = itm.id
+              AND ar.store_id = '504'
+              AND ar.return_date >= '2026-01-01'
+              AND ar.return_date < '2026-02-01'
+        ) AS RetQty,
+
+        -- Transfer Out
+        (
+            SELECT SUM(sti.stock_in)
+            FROM stock_transaction_items sti
+            INNER JOIN stock_transactions st
+                ON sti.stock_transaction_id = st.id
+            WHERE sti.item_id = itm.id
+              AND st.from_store = '504'
+              AND CONVERT(DATETIME,st.date,105) >= CONVERT(DATETIME,'01-01-2026',105)
+              AND CONVERT(DATETIME,st.date,105) < CONVERT(DATETIME,'01-02-2026',105)
+        ) AS OutQty,
+
+        -- Returned
+        (
+            SELECT SUM(sti.returned)
+            FROM stock_transaction_items sti
+            INNER JOIN stock_transactions st
+                ON sti.stock_transaction_id = st.id
+            WHERE sti.item_id = itm.id
+              AND st.from_store = '504'
+              AND ISNULL(sti.returned,0) > 0
+              AND CONVERT(DATETIME,st.date,105) >= CONVERT(DATETIME,'01-01-2026',105)
+              AND CONVERT(DATETIME,st.date,105) < CONVERT(DATETIME,'01-02-2026',105)
+        ) AS ReturnedQty
+
+) Period
+
+WHERE
+      ISNULL(Opening.TotalIn,0) > 0
+   OR ISNULL(Period.InQty,0) > 0
+   OR ISNULL(Period.SoldQty,0) > 0
+   OR ISNULL(Period.RetQty,0) > 0
+   OR ISNULL(Period.OutQty,0) > 0
+   OR ISNULL(Period.ReturnedQty,0) > 0
+
+ORDER BY itm.list_order ASC;

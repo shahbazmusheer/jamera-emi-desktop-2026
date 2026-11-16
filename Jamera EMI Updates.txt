@@ -1,0 +1,13 @@
+1. Local Network Setup
+2. Backup/Restore Database => Ok
+3. Proper Testing
+4. UI Empowerment
+5. Reports
+	a. Sales Master
+	b. Sale Details => In-Progress (80%)
+	c. Sale Returns Master
+	d. Sale Return Details => In-Progress (80%)
+	e. Stock Transaction Details => Done
+	f. Recovery Master Report => (sabqa cards, new cards, wasool card, nill cards, bakaya cards )
+	g. Recovery ( Late Customers, low recovery, defaulters)
+	b. Commission Master Report =>

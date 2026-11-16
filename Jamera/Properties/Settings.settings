@@ -1,0 +1,295 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Jamera.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="App_Default_Skin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Whiteprint</Value>
+    </Setting>
+    <Setting Name="OS_No" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Baseboard_No" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="backup_drive" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\</Value>
+    </Setting>
+    <Setting Name="db_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">JAMERA_EMI</Value>
+    </Setting>
+    <Setting Name="server_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\SQLEXPRESS</Value>
+    </Setting>
+    <Setting Name="db_user_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">sa</Value>
+    </Setting>
+    <Setting Name="db_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pak22550</Value>
+    </Setting>
+    <Setting Name="hr" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="sec" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="min" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="reg_type" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="paid_month" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">11</Value>
+    </Setting>
+    <Setting Name="soft_start_date" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10-10-2019</Value>
+    </Setting>
+    <Setting Name="soft_end_date" Type="System.String" Scope="User">
+      <Value Profile="(Default)">30-10-2019</Value>
+    </Setting>
+    <Setting Name="emi_before_days" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="emi_after_days" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="send_message_on_new_aggrement" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="phone_number_options_home_office" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="is_send_message_before_due_date" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="is_send_message_after_due_date" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="new_aggrement_message" Type="System.String" Scope="User">
+      <Value Profile="(Default)">
+Dear [CUSTOMER_NAME],
+      You have purchased [ITEM_NAME] at Rs.[ITEM_RATE]. You have paid Rs.[PAID_AMOUNT]. Your remaining balance is Rs.[BALANCE] with [NO_OF_INSTALLMENTS] installments.</Value>
+    </Setting>
+    <Setting Name="due_date_message" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dear [CUSTOMER_NAME],
+      You have purchased [ITEM_NAME]. [DUE_DATE] is your due date with Rs.[DUE_AMOUNT].Please pay your due amount.</Value>
+    </Setting>
+    <Setting Name="cash_voucher_eng_message" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dear [CUSTOMER_NAME],
+      Aap ka ref.no [REF_NO] hy. Aap ne [DUE_DATE] per Rs.[PAID_AMOUNT] qist ki raqam adaa ki hy. is k baad aap ne [Current_balance] baaqi qistoun main adaa krana hy .
+Regards  AL-Rehman Fouji Trading Carporation (0345-8027691)</Value>
+    </Setting>
+    <Setting Name="after_due_date_message" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dear [CUSTOMER_NAME],
+      You have purchased [ITEM_NAME]. [DUE_DATE]  was your due date with amount Rs.[PAID_AMOUNT]. You have charged Rs.[FINE] as fine. Please pay your dues.</Value>
+    </Setting>
+    <Setting Name="send_message_after_stock_transfer" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="company_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TINESTAR SOLUTIONS</Value>
+    </Setting>
+    <Setting Name="company_address" Type="System.String" Scope="User">
+      <Value Profile="(Default)">JOHAR TOWN ,LAHORE</Value>
+    </Setting>
+    <Setting Name="company_phone" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0306-1192596</Value>
+    </Setting>
+    <Setting Name="company_other_info" Type="System.String" Scope="User">
+      <Value Profile="(Default)">NTN-313035465</Value>
+    </Setting>
+    <Setting Name="company_icon" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="send_message_on_update_aggrement_status" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="should_save_message_without_sent" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="should_show_flush_btn_in_main" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="sms_gateway" Type="System.String" Scope="User">
+      <Value Profile="(Default)">API</Value>
+    </Setting>
+    <Setting Name="wifi_user_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">admin</Value>
+    </Setting>
+    <Setting Name="wifi_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">admin</Value>
+    </Setting>
+    <Setting Name="wifi_ip_address" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.1.100</Value>
+    </Setting>
+    <Setting Name="wifi_port" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8092</Value>
+    </Setting>
+    <Setting Name="api_url" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://sendpk.com</Value>
+    </Setting>
+    <Setting Name="api_username" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="api_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">@tinestar12345</Value>
+    </Setting>
+    <Setting Name="api_masking" Type="System.String" Scope="User">
+      <Value Profile="(Default)">SMS ALERT</Value>
+    </Setting>
+    <Setting Name="api_port" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="customer_dues_eng_template" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dear [NAME],
+  Aap ka Ref.No  [REF_NO] hay. [DUE_DATE] tareekh per aap ne Rs. [DUE_AMOUNT] ki qist jama kraani hy. Meherbaani kr k qist waqt per jama krayein.
+Regards  AL-Rehman Fouji Trading Carporation (0345-8027691)</Value>
+    </Setting>
+    <Setting Name="customer_dues_urd_template" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[NAME]
+آپکا کھاتا نمبر[REF_NO] ہے۔آپ نے  [DUE_AMOUNT] روپے  [DUE_DATE] تاریخ پے   قسط جمع  کرانی ہے۔برائےمہربانی  قسط وقت پے جمع کرائیں۔
+03458027691 AFTC  </Value>
+    </Setting>
+    <Setting Name="late_customer_eng_template" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dear [NAME],
+  Aap ka Ref.No [REF_NO] hay. Aap ne [DUE_DATE] tareekh pe Rs.[DUE_AMOUNT] qist ki raqam ada krni thi. Lakin aap ne qist adaa nahi ki.Braye meherbaani qist ki raqam jama krayein.
+Regards  AL-Rehman Fouji Trading Carporation (0345-8027691)</Value>
+    </Setting>
+    <Setting Name="late_customer_urd_template" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[NAME]
+آپکا کھاتا نمبر[REF_NO] ہے۔آپ نے  [DUE_AMOUNT] روپے  [DUE_DATE] تاریخ پے   قسط جمع  کرانی تھی۔برائےمہربانی  قسط جمع کرائیں۔
+03458027691 AFTC  </Value>
+    </Setting>
+    <Setting Name="new_agreement_eng_template" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dear [NAME],
+ Aap ka Ref.No is [REF_NO]. Aap ne [ITEMS_LIST] Khareeday hyn. Kul keemat Rs.[AGREEMENT_TOTAL] bani hy. Aap ne Rs.[ADVANCE_AMOUNT] advance adaa kiye hyn. Aap ki baqaya raqam Rs.[CUSTOMER_BALANCE] hay jo k [NO_OF_INSTALLMENTS] Qistoun main adaa krni hy.
+Regards  AL-Rehman Fouji Trading Carporation (0345-8027691)
+</Value>
+    </Setting>
+    <Setting Name="new_agreement_urd_template" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[NAME]
+آپکا کھاتا نمبر[REF_NO] ہے۔آپ نے  [ITEMS_LIST] خرید کیےہیں-ٹوٹل رقم [AGREEMENT_TOTAL] روپے ہے۔ آپ نے  ایڈوانس  [ADVANCE_AMOUNT] روپے ادا کیے ہیں۔آپ نے  بقایا رقم [CUSTOMER_BALANCE] روپے 
+[NO_OF_INSTALLMENTS] قسطوں میں جمع کرانی ہے۔   
+03458027691 AFTC  </Value>
+    </Setting>
+    <Setting Name="default_sms_gateway" Type="System.String" Scope="User">
+      <Value Profile="(Default)">API</Value>
+    </Setting>
+    <Setting Name="default_sms_language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">English</Value>
+    </Setting>
+    <Setting Name="single_api_sms_length" Type="System.String" Scope="User">
+      <Value Profile="(Default)">160</Value>
+    </Setting>
+    <Setting Name="single_wifi_sms_length" Type="System.String" Scope="User">
+      <Value Profile="(Default)">180</Value>
+    </Setting>
+    <Setting Name="sms_loop_delay_time_in_sec" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="cash_voucher_urd_message" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="emp_advance_eng_message" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dear [Name],
+ Aap ne Rs.[PAID_AMOUNT] advance raqam wasool ki hy. Jo k Sallary ada krtay wqt sallary ki raqam se kaat li jaye gi
+Regards  AL-Rehman Fouji Trading Carporation (0345-8027691)</Value>
+    </Setting>
+    <Setting Name="emp_advance_urd_message" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="show_main_sidebar_menu" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="reciept_voucher_templates_eng" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Dear [CUSTOMER],
+ Aap ka Ref _No  [REF_NO] hy. Aap ne  [DATE] tareekh per  Rs.[RECIEVED_AMOUNT]  qist ki raqam adaa ki hy jis ka raseed number  [EMI_NO] hy. Is k baad apki baqaya raqam Rs.[BALANCE] hy.
+Regards
+ AFTC (0345-8027691)</Value>
+    </Setting>
+    <Setting Name="reciept_voucher_templates_urd" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="custom_connection" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="load_prev_acc_name" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="load_prev_acc_father_name" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="load_prev_acc_cnic" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="load_prev_acc_profession" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="load_prev_acc_business_address" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="load_prev_acc_home_address" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="load_prev_acc_permanent_address" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="load_prev_acc_home_phone" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="load_prev_acc_office_phone" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="load_prev_acc_age" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="load_prev_acc_cast" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="check_emi_existence" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="check_ref_no_existence" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="low_stock_alert_on_main_window" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="insert_new_row_for_partial_receipt" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="show_employees_tab" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="show_purchases_tab" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="show_inventory_tab" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="show_accounts_tab" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="show_vouchers_tab" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="show_reports_tab" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="show_settings_tab" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="show_aggrements_tab" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="show_messages_tab" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="ref_prefix_year" Type="System.String" Scope="User">
+      <Value Profile="(Default)">202</Value>
+    </Setting>
+    <Setting Name="auto_popup_new_customer_after_agg_save" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

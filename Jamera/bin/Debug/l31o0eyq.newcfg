@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <section name="Jamera.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false"/>
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="JAMERA_CONNECTION" connectionString="XpoProvider=MSSqlServer;Data Source=.\SQLEXPRESS;Initial Catalog=JAMERA_EMI_DEMO;User ID=sa;Password=pak22550;MultipleActiveResultSets=True;Pooling=False;" />
+    </connectionStrings>
+    <userSettings>
+        <Jamera.Properties.Settings>
+            <setting name="App_Default_Skin" serializeAs="String">
+                <value>Whiteprint</value>
+            </setting>
+            <setting name="OS_No" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Baseboard_No" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="backup_drive" serializeAs="String">
+                <value>D:\</value>
+            </setting>
+            <setting name="db_name" serializeAs="String">
+                <value>JAMERA_EMI</value>
+            </setting>
+            <setting name="server_name" serializeAs="String">
+                <value>.\SQLEXPRESS</value>
+            </setting>
+            <setting name="db_user_name" serializeAs="String">
+                <value>sa</value>
+            </setting>
+            <setting name="db_password" serializeAs="String">
+                <value>pak22550</value>
+            </setting>
+            <setting name="hr" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="sec" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="min" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="reg_type" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="paid_month" serializeAs="String">
+                <value>11</value>
+            </setting>
+            <setting name="soft_start_date" serializeAs="String">
+                <value>10-10-2019</value>
+            </setting>
+            <setting name="soft_end_date" serializeAs="String">
+                <value>30-10-2019</value>
+            </setting>
+            <setting name="emi_before_days" serializeAs="String">
+                <value>5</value>
+            </setting>
+            <setting name="emi_after_days" serializeAs="String">
+                <value>1</value>
+            </setting>
+            <setting name="send_message_on_new_aggrement" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="phone_number_options_home_office" serializeAs="String">
+                <value>3</value>
+            </setting>
+            <setting name="is_send_message_before_due_date" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="is_send_message_after_due_date" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="new_aggrement_message" serializeAs="String">
+                <value>
+Dear [CUSTOMER_NAME],
+      You have purchased [ITEM_NAME] at Rs.[ITEM_RATE]. You have paid Rs.[PAID_AMOUNT]. Your remaining balance is Rs.[BALANCE] with [NO_OF_INSTALLMENTS] installments.</value>
+            </setting>
+            <setting name="due_date_message" serializeAs="String">
+                <value>Dear [CUSTOMER_NAME],
+      You have purchased [ITEM_NAME]. [DUE_DATE] is your due date with Rs.[DUE_AMOUNT].Please pay your due amount.</value>
+            </setting>
+            <setting name="cash_voucher_eng_message" serializeAs="String">
+                <value>Dear [CUSTOMER_NAME],
+      Aap ka ref.no [REF_NO] hy. Aap ne [DUE_DATE] per Rs.[PAID_AMOUNT] qist ki raqam adaa ki hy. is k baad aap ne [Current_balance] baaqi qistoun main adaa krana hy .
+Regards  AL-Rehman Fouji Trading Carporation (0345-8027691)</value>
+            </setting>
+            <setting name="after_due_date_message" serializeAs="String">
+                <value>Dear [CUSTOMER_NAME],
+      You have purchased [ITEM_NAME]. [DUE_DATE]  was your due date with amount Rs.[PAID_AMOUNT]. You have charged Rs.[FINE] as fine. Please pay your dues.</value>
+            </setting>
+            <setting name="send_message_after_stock_transfer" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="company_name" serializeAs="String">
+                <value>TINESTAR SOLUTIONS</value>
+            </setting>
+            <setting name="company_address" serializeAs="String">
+                <value>JOHAR TOWN ,LAHORE</value>
+            </setting>
+            <setting name="company_phone" serializeAs="String">
+                <value>0306-1192596</value>
+            </setting>
+            <setting name="company_other_info" serializeAs="String">
+                <value>NTN-313035465</value>
+            </setting>
+            <setting name="company_icon" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="send_message_on_update_aggrement_status" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="should_save_message_without_sent" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="should_show_flush_btn_in_main" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="sms_gateway" serializeAs="String">
+                <value>API</value>
+            </setting>
+            <setting name="wifi_user_name" serializeAs="String">
+                <value>admin</value>
+            </setting>
+            <setting name="wifi_password" serializeAs="String">
+                <value>admin</value>
+            </setting>
+            <setting name="wifi_ip_address" serializeAs="String">
+                <value>192.168.1.100</value>
+            </setting>
+            <setting name="wifi_port" serializeAs="String">
+                <value>8092</value>
+            </setting>
+            <setting name="api_url" serializeAs="String">
+                <value>http://sendpk.com</value>
+            </setting>
+            <setting name="api_username" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="api_password" serializeAs="String">
+                <value>@tinestar12345</value>
+            </setting>
+            <setting name="api_masking" serializeAs="String">
+                <value>SMS ALERT</value>
+            </setting>
+            <setting name="api_port" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="customer_dues_eng_template" serializeAs="String">
+                <value>Dear [NAME],
+  Aap ka Ref.No  [REF_NO] hay. [DUE_DATE] tareekh per aap ne Rs. [DUE_AMOUNT] ki qist jama kraani hy. Meherbaani kr k qist waqt per jama krayein.
+Regards  AL-Rehman Fouji Trading Carporation (0345-8027691)</value>
+            </setting>
+            <setting name="customer_dues_urd_template" serializeAs="String">
+                <value>[NAME]
+آپکا کھاتا نمبر[REF_NO] ہے۔آپ نے  [DUE_AMOUNT] روپے  [DUE_DATE] تاریخ پے   قسط جمع  کرانی ہے۔برائےمہربانی  قسط وقت پے جمع کرائیں۔
+03458027691 AFTC  </value>
+            </setting>
+            <setting name="late_customer_eng_template" serializeAs="String">
+                <value>Dear [NAME],
+  Aap ka Ref.No [REF_NO] hay. Aap ne [DUE_DATE] tareekh pe Rs.[DUE_AMOUNT] qist ki raqam ada krni thi. Lakin aap ne qist adaa nahi ki.Braye meherbaani qist ki raqam jama krayein.
+Regards  AL-Rehman Fouji Trading Carporation (0345-8027691)</value>
+            </setting>
+            <setting name="late_customer_urd_template" serializeAs="String">
+                <value>[NAME]
+آپکا کھاتا نمبر[REF_NO] ہے۔آپ نے  [DUE_AMOUNT] روپے  [DUE_DATE] تاریخ پے   قسط جمع  کرانی تھی۔برائےمہربانی  قسط جمع کرائیں۔
+03458027691 AFTC  </value>
+            </setting>
+            <setting name="new_agreement_eng_template" serializeAs="String">
+                <value>Dear [NAME],
+ Aap ka Ref.No is [REF_NO]. Aap ne [ITEMS_LIST] Khareeday hyn. Kul keemat Rs.[AGREEMENT_TOTAL] bani hy. Aap ne Rs.[ADVANCE_AMOUNT] advance adaa kiye hyn. Aap ki baqaya raqam Rs.[CUSTOMER_BALANCE] hay jo k [NO_OF_INSTALLMENTS] Qistoun main adaa krni hy.
+Regards  AL-Rehman Fouji Trading Carporation (0345-8027691)
+</value>
+            </setting>
+            <setting name="new_agreement_urd_template" serializeAs="String">
+                <value>[NAME]
+آپکا کھاتا نمبر[REF_NO] ہے۔آپ نے  [ITEMS_LIST] خرید کیےہیں-ٹوٹل رقم [AGREEMENT_TOTAL] روپے ہے۔ آپ نے  ایڈوانس  [ADVANCE_AMOUNT] روپے ادا کیے ہیں۔آپ نے  بقایا رقم [CUSTOMER_BALANCE] روپے 
+[NO_OF_INSTALLMENTS] قسطوں میں جمع کرانی ہے۔   
+03458027691 AFTC  </value>
+            </setting>
+            <setting name="default_sms_gateway" serializeAs="String">
+                <value>API</value>
+            </setting>
+            <setting name="default_sms_language" serializeAs="String">
+                <value>English</value>
+            </setting>
+            <setting name="single_api_sms_length" serializeAs="String">
+                <value>160</value>
+            </setting>
+            <setting name="single_wifi_sms_length" serializeAs="String">
+                <value>180</value>
+            </setting>
+            <setting name="sms_loop_delay_time_in_sec" serializeAs="String">
+                <value>1000</value>
+            </setting>
+            <setting name="cash_voucher_urd_message" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="emp_advance_eng_message" serializeAs="String">
+                <value>Dear [Name],
+ Aap ne Rs.[PAID_AMOUNT] advance raqam wasool ki hy. Jo k Sallary ada krtay wqt sallary ki raqam se kaat li jaye gi
+Regards  AL-Rehman Fouji Trading Carporation (0345-8027691)</value>
+            </setting>
+            <setting name="emp_advance_urd_message" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="show_main_sidebar_menu" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="reciept_voucher_templates_eng" serializeAs="String">
+                <value>Dear [CUSTOMER],
+ Aap ka Ref _No  [REF_NO] hy. Aap ne  [DATE] tareekh per  Rs.[RECIEVED_AMOUNT]  qist ki raqam adaa ki hy jis ka raseed number  [EMI_NO] hy. Is k baad apki baqaya raqam Rs.[BALANCE] hy.
+Regards
+ AFTC (0345-8027691)</value>
+            </setting>
+            <setting name="reciept_voucher_templates_urd" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="custom_connection" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="load_prev_acc_name" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="load_prev_acc_father_name" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="load_prev_acc_cnic" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="load_prev_acc_profession" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="load_prev_acc_business_address" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="load_prev_acc_home_address" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="load_prev_acc_permanent_address" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="load_prev_acc_home_phone" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="load_prev_acc_office_phone" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="load_prev_acc_age" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="load_prev_acc_cast" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="check_emi_existence" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="check_ref_no_existence" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="low_stock_alert_on_main_window" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="insert_new_row_for_partial_receipt" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="show_employees_tab" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="show_purchases_tab" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="show_inventory_tab" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="show_accounts_tab" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="show_vouchers_tab" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="show_reports_tab" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="show_settings_tab" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="show_aggrements_tab" serializeAs="String">
+                <value>True</value>
+            </setting>
+            <setting name="show_messages_tab" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </Jamera.Properties.Settings>
+    </userSettings>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8"/></startup></configuration>

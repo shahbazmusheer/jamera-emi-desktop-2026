@@ -1,0 +1,488 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Development\\Desktop\\Jamera\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|d:\\development\\desktop\\jamera\\jamera\\aggrements\\new_aggrment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\new_aggrment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\new_aggrment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\new_aggrment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\application_settings\\admin_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\application_settings\\admin_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\application_settings\\admin_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\application_settings\\admin_settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\sales\\new_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\sales\\new_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\sales\\new_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\sales\\new_customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Jamera EMI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\vouchers\\emi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\vouchers\\emi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\vouchers\\bulk_cash_voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\vouchers\\bulk_cash_voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\collections\\aggrementscollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\collections\\aggrementscollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\items\\stores\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\items\\stores\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\collections\\vouchercollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\collections\\vouchercollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\items\\stores\\stores_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\items\\stores\\stores_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\sales\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\sales\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\aggrements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\aggrements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\sales\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\sales\\customers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\aggrements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\aggrements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\aggrement_returns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\aggrement_returns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\aggrment_return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\aggrment_return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\aggrment_return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\aggrment_return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\vouchers\\vouchers_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\vouchers\\vouchers_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\aggrement_returns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\aggrement_returns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\edit_aggrement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\edit_aggrement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\edit_aggrement_return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\edit_aggrement_return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\edit_aggrement_return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\edit_aggrement_return.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\aggrements_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\aggrements_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\vouchers\\cash_vouchers_history_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\vouchers\\cash_vouchers_history_master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\aggrements\\edit_aggrement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\aggrements\\edit_aggrement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|D:\\Development\\Desktop\\Jamera\\jamera\\vouchers\\update_emi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E7F85C0-A8A0-4B20-A726-8395DCC8DFA6}|Jamera\\Jamera EMI.csproj|solutionrelative:jamera\\vouchers\\update_emi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 56,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Main.cs",
+              "RelativeDocumentMoniker": "Jamera\\Main.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Main.cs",
+              "RelativeToolTip": "Jamera\\Main.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAIwA4BAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T08:23:45.143Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Admin_Settings.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Application_Settings\\Admin_Settings.cs",
+              "RelativeDocumentMoniker": "Jamera\\Application_Settings\\Admin_Settings.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Application_Settings\\Admin_Settings.cs",
+              "RelativeToolTip": "Jamera\\Application_Settings\\Admin_Settings.cs",
+              "ViewState": "AgIAAI4BAAAAAAAAAAAowJsBAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T10:45:44.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "New_Customer.cs [Design]",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Sales\\New_Customer.cs",
+              "RelativeDocumentMoniker": "Jamera\\Sales\\New_Customer.cs",
+              "ToolTip": "F:\\JAMERA EMI - Source Code\\Jamera\\Jamera\\Sales\\New_Customer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T10:23:18.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "New_Aggrment.cs [Design]",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\New_Aggrment.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\New_Aggrment.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\New_Aggrment.cs [Design]",
+              "RelativeToolTip": "Jamera\\Aggrements\\New_Aggrment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T09:40:10.032Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "New_Aggrment.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\New_Aggrment.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\New_Aggrment.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\New_Aggrment.cs",
+              "RelativeToolTip": "Jamera\\Aggrements\\New_Aggrment.cs",
+              "ViewState": "AgIAANIFAAAAAAAAAAAowOsFAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T09:40:19.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Admin_Settings.cs [Design]",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Application_Settings\\Admin_Settings.cs",
+              "RelativeDocumentMoniker": "Jamera\\Application_Settings\\Admin_Settings.cs",
+              "ToolTip": "F:\\JAMERA EMI - Source Code\\Jamera\\Jamera\\Application_Settings\\Admin_Settings.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T10:44:16.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "New_Customer.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Sales\\New_Customer.cs",
+              "RelativeDocumentMoniker": "Jamera\\Sales\\New_Customer.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Sales\\New_Customer.cs",
+              "RelativeToolTip": "Jamera\\Sales\\New_Customer.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAcwFMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T10:23:20.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Jamera EMI",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Jamera EMI.csproj",
+              "RelativeDocumentMoniker": "Jamera\\Jamera EMI.csproj",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Jamera EMI.csproj",
+              "RelativeToolTip": "Jamera\\Jamera EMI.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-11-12T10:05:19.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EMI.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Vouchers\\EMI.cs",
+              "RelativeDocumentMoniker": "Jamera\\Vouchers\\EMI.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Vouchers\\EMI.cs",
+              "RelativeToolTip": "Jamera\\Vouchers\\EMI.cs",
+              "ViewState": "AgIAAAgAAADgAAAAAAA4wBIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T10:42:24.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Bulk_Cash_Voucher.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Vouchers\\Bulk_Cash_Voucher.cs",
+              "RelativeDocumentMoniker": "Jamera\\Vouchers\\Bulk_Cash_Voucher.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Vouchers\\Bulk_Cash_Voucher.cs",
+              "RelativeToolTip": "Jamera\\Vouchers\\Bulk_Cash_Voucher.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAA9wFAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T08:52:26.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Store.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Items\\Stores\\Store.cs",
+              "RelativeDocumentMoniker": "Jamera\\Items\\Stores\\Store.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Items\\Stores\\Store.cs",
+              "RelativeToolTip": "Jamera\\Items\\Stores\\Store.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T09:42:31.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AggrementsCollection.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Collections\\AggrementsCollection.cs",
+              "RelativeDocumentMoniker": "Jamera\\Collections\\AggrementsCollection.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Collections\\AggrementsCollection.cs",
+              "RelativeToolTip": "Jamera\\Collections\\AggrementsCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T10:03:21.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "VoucherCollection.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Collections\\VoucherCollection.cs",
+              "RelativeDocumentMoniker": "Jamera\\Collections\\VoucherCollection.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Collections\\VoucherCollection.cs",
+              "RelativeToolTip": "Jamera\\Collections\\VoucherCollection.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T07:39:02.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Stores_Controller.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Items\\Stores\\Stores_Controller.cs",
+              "RelativeDocumentMoniker": "Jamera\\Items\\Stores\\Stores_Controller.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Items\\Stores\\Stores_Controller.cs",
+              "RelativeToolTip": "Jamera\\Items\\Stores\\Stores_Controller.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAwM0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T09:42:41.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Aggrements.cs [Design]",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrements.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Aggrements.cs",
+              "ToolTip": "F:\\JAMERA EMI - Source Code\\Jamera\\Jamera\\Aggrements\\Aggrements.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T10:47:05.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Customers.cs [Design]",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Sales\\Customers.cs",
+              "RelativeDocumentMoniker": "Jamera\\Sales\\Customers.cs",
+              "ToolTip": "F:\\JAMERA EMI - Source Code\\Jamera\\Jamera\\Sales\\Customers.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T10:46:26.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Aggrement_Returns.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrement_Returns.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Aggrement_Returns.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrement_Returns.cs",
+              "RelativeToolTip": "Jamera\\Aggrements\\Aggrement_Returns.cs",
+              "ViewState": "AgIAACECAAAAAAAAAAAuwJoCAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T10:56:31.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Aggrements.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrements.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Aggrements.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrements.cs",
+              "RelativeToolTip": "Jamera\\Aggrements\\Aggrements.cs",
+              "ViewState": "AgIAAGcCAAAAAAAAAAAIwLgCAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T10:55:39.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customers.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Sales\\Customers.cs",
+              "RelativeDocumentMoniker": "Jamera\\Sales\\Customers.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Sales\\Customers.cs",
+              "RelativeToolTip": "Jamera\\Sales\\Customers.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAQwJQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-11T10:48:38.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Aggrment_Return.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrment_Return.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Aggrment_Return.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrment_Return.cs",
+              "RelativeToolTip": "Jamera\\Aggrements\\Aggrment_Return.cs",
+              "ViewState": "AgIAAH4EAAAAAAAAAAAowI8EAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T09:34:10.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Aggrment_Return.cs [Design]",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrment_Return.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Aggrment_Return.cs",
+              "ToolTip": "F:\\JAMERA EMI - Source Code\\Jamera\\Jamera\\Aggrements\\Aggrment_Return.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-10T10:36:48.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Vouchers_Controller.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Vouchers\\Vouchers_Controller.cs",
+              "RelativeDocumentMoniker": "Jamera\\Vouchers\\Vouchers_Controller.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Vouchers\\Vouchers_Controller.cs",
+              "RelativeToolTip": "Jamera\\Vouchers\\Vouchers_Controller.cs",
+              "ViewState": "AgIAAEoDAAAAAAAAAAAAAFsDAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T07:49:38.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Aggrement_Returns.cs [Design]",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrement_Returns.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Aggrement_Returns.cs",
+              "ToolTip": "F:\\JAMERA EMI - Source Code\\Jamera\\Jamera\\Aggrements\\Aggrement_Returns.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T09:34:05.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit_Aggrement_Return.cs [Design]",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Edit_Aggrement_Return.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Edit_Aggrement_Return.cs",
+              "ToolTip": "F:\\JAMERA EMI - Source Code\\Jamera\\Jamera\\Aggrements\\Edit_Aggrement_Return.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T10:53:25.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit_Aggrement.cs [Design]",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Edit_Aggrement.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Edit_Aggrement.cs",
+              "ToolTip": "F:\\JAMERA EMI - Source Code\\Jamera\\Jamera\\Aggrements\\Edit_Aggrement.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T08:15:52.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit_Aggrement_Return.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Edit_Aggrement_Return.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Edit_Aggrement_Return.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Edit_Aggrement_Return.cs",
+              "RelativeToolTip": "Jamera\\Aggrements\\Edit_Aggrement_Return.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T08:36:06.635Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Aggrements_Controller.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrements_Controller.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Aggrements_Controller.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Aggrements_Controller.cs",
+              "RelativeToolTip": "Jamera\\Aggrements\\Aggrements_Controller.cs",
+              "ViewState": "AgIAAP4EAAAAAAAAAAAIwAwFAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T09:33:06.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Cash_Vouchers_History_Master.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Vouchers\\Cash_Vouchers_History_Master.cs",
+              "RelativeDocumentMoniker": "Jamera\\Vouchers\\Cash_Vouchers_History_Master.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Vouchers\\Cash_Vouchers_History_Master.cs",
+              "RelativeToolTip": "Jamera\\Vouchers\\Cash_Vouchers_History_Master.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T09:30:45.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Edit_Aggrement.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Edit_Aggrement.cs",
+              "RelativeDocumentMoniker": "Jamera\\Aggrements\\Edit_Aggrement.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Aggrements\\Edit_Aggrement.cs",
+              "RelativeToolTip": "Jamera\\Aggrements\\Edit_Aggrement.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAwEQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T08:15:54.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Update_EMI.cs",
+              "DocumentMoniker": "D:\\Development\\Desktop\\Jamera\\Jamera\\Vouchers\\Update_EMI.cs",
+              "RelativeDocumentMoniker": "Jamera\\Vouchers\\Update_EMI.cs",
+              "ToolTip": "D:\\Development\\Desktop\\Jamera\\Jamera\\Vouchers\\Update_EMI.cs",
+              "RelativeToolTip": "Jamera\\Vouchers\\Update_EMI.cs",
+              "ViewState": "AgIAACUAAAAAVGZmZmYOwDgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T06:51:19.527Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
